@@ -16,11 +16,22 @@
 
 
 .img{
+    cursor: pointer;
     max-height: 250px;
     margin-right: 10px;
 }
 
 .smallImg{
+    cursor: pointer;
     max-height: 150px;
     margin-right: 10px;
+}
+
+
+.img:hover{
+    transform: scale(1.1);
+}
+
+.smallImg:hover{
+    transform:scaleX(1.1)
 }
